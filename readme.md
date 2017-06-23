@@ -1,5 +1,5 @@
 ## <2>解压 进入该目录后执行
-##./configure 
+## ./configure 
 ## b目录下 cd lib       执行 make
 ## 此时会在上层目录（就是刚才有configure那个目录）生成libunp.a文件
 ## <3>复制libunp.a到 /usr/lib下  （以后gcc编译就可以用 -lunp来调用该库文件）
